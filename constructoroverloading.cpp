@@ -11,3 +11,11 @@ public:
     mahasiswa(string iNama);
     mahasiswa(int iNim, string iNama);
     void cetak();
+    };
+
+mahasiswa :: mahasiswa(){
+}
+
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim; // definisi hanya NIM
+}
